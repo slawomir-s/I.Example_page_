@@ -195,6 +195,10 @@ section .container {
     line-height: 25px;
 }
 
+.gallery {
+    margin-bottom: 130px;
+}
+
 .gallery [class*="col-"] {
     position: relative;
 }
@@ -239,7 +243,7 @@ section .container {
 
 .team .col-3 {
     position: relative;
-    height: 300px;
+    height: 200px;
 }
 
 .team .col-3 h2 {
@@ -308,6 +312,11 @@ section .container {
     object-fit: cover;
     width: 100%;
 }
+
+.picture .col-6 p {
+    padding: 30px;
+}
+
 
 .numbers .container {
     margin-top: 100px;
